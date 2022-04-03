@@ -1,0 +1,27 @@
+.header {
+    grid-area: header;
+    background-color: bisque;
+
+    display: grid;
+    grid-template-columns: 1fr 12fr ;
+    vertical-align: middle;
+  }
+
+  .img{
+   /* background-color: blueviolet;*/
+    width: 60px;
+    height: 60px;
+  }
+  
+  .p{
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+    font-size: large;
+  }
+
+  /*.p{
+    text-align: center;
+    height: 100%;
+    vertical-align: middle;
+  }*/

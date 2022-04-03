@@ -1,0 +1,10 @@
+/* .mainBlock {
+  grid-area: header;
+  background-color: bisque;
+
+  display: grid;
+  grid-template-columns: 1fr 12fr;
+
+  grid-area: main-block;
+  background-color: azure;
+} */

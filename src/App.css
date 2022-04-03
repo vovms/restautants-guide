@@ -11,22 +11,3 @@
 
     padding: 50px;
 }
-
-
-.header {
-  grid-area: header;
-  background-color: bisque;
-}
-.main-block {
-  grid-area: main-block;
-  background-color: azure;
-}
-.restaurants-list {
-  grid-area: restaurants-list;
-  background-color: seashell;
-}
-
-.footer {
-  grid-area: footer;
-  background-color: aquamarine;
-}

@@ -1,0 +1,15 @@
+.RestLink {
+    padding:  5px;
+}
+
+.activeNavLink{
+    color: gold;
+    text-decoration: none;
+    
+}
+
+.NavLink{
+    color: black;
+    text-decoration: none;
+    
+}

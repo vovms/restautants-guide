@@ -1,16 +1,22 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/Header";
-import MainBlock from "./components/MainBlock";
-import Footer from "./components/Footer";
-import RestaurantsList from "./components/RestaurantsList";
+import Header from "./components/Header/Header";
+import MainBlock from "./components/MainBlock/MainBlock";
+import Footer from "./components/Footer/Footer";
+import RestaurantsList from "./components/RestaurantsList/RestaurantsList";
+import {
+  BrowserRouter,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-function App() {
+function App(props) {
   return (
     <div className="app-wrapper">
       <Header />
-      <RestaurantsList />
-      <MainBlock />
+      <RestaurantsList RestArr = {props.state.RestArr}/>
+      <MainBlock store = {props.store} state = {props.state} dispatch = {props.dispatch} />
       <Footer />
     </div>
   );

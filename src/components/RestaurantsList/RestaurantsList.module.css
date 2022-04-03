@@ -1,0 +1,4 @@
+.restaurantsList {
+    grid-area: restaurants-list;
+    background-color: seashell;
+  }
